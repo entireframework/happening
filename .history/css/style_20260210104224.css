@@ -298,10 +298,10 @@ footer {
             align-items: flex-start;
 
             img {
-              max-height: 36px;
+              max-height: 40px;
               width: 100%;
               object-fit: contain;
-              object-position: center;
+              object-position: left;
             }
 
             &:last-child {
@@ -309,10 +309,6 @@ footer {
               border-top: 1px #131313 dotted;
               width: 100%;
               min-width: 100%;
-
-              img {
-                object-position: left;
-              }
             }
           }
         }
